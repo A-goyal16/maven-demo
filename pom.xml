@@ -31,6 +31,14 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/A-goyal16/maven-demo</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <!-- Surefire plugin for running tests -->
